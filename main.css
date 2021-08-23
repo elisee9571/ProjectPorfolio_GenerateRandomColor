@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.code {
+    height: 250px;
+    width: 350px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.btn-section {
+    position: relative;
+}
+
+button.generate {
+    background: crimson;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+}
+
+button.btn-copy {
+    border: none;
+    padding: 5px 10px;
+    background: transparent;
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+}
