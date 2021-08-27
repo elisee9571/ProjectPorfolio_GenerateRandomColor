@@ -12,4 +12,5 @@ const copy = () => {
     const textCopy = document.querySelector('.text');
 
     navigator.clipboard.writeText(textCopy.innerHTML);
+    alert('copy réussi!');
 };
